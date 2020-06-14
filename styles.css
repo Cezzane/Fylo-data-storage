@@ -12,7 +12,7 @@ body{
     background-position: bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size: 100% auto;
     font-size: 14px;
 }
 .main{
