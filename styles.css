@@ -7,7 +7,6 @@
 
 body{
     background-color: hsl(229, 57%, 11%);
-    position: relative;
     background-image: url('images/bg-desktop.svg');
     background-position: bottom;
     background-attachment: fixed;
@@ -94,7 +93,8 @@ outline: none;}
     right: 55px;
     align-items: center;
     position: absolute;
-    
+   opacity: 0;
+   transition: opacity ease-in .3s;
     border-radius: 10px 10px 0px 10px;
     justify-content: center; 
    height: 50px;
@@ -119,7 +119,7 @@ outline: none;}
     border-color: white white transparent transparent;
 }
 .storage_process{
-    width: 80%;
+    width: 5px;
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -184,4 +184,15 @@ transform: translateY(50%);    }
         display: inline;
         justify-content: space-between;
     }
+}
+.attribution{
+color: white;
+position: absolute;
+bottom: 20px;
+text-align: center;
+width: 100%;
+}
+.attribution a{
+
+    color: white;
 }
